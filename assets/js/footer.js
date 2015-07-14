@@ -3,13 +3,13 @@ $(document).ready(function(){
 		var $window = $(window),
 			$footer = $('.site-footer'),
 			windowBottom = $(window).scrollTop() + $(window).height(),
-			footerTop = $footer.offset().top + 185;
+			footerTop = $footer.offset().top + 285;
 
 		// die if footer isn't in view
 		if (windowBottom < footerTop) return;
 
 		var amountOfPixelsShown = windowBottom - footerTop;
-		var decimalOfPixelsShown = amountOfPixelsShown / ($footer.outerHeight() - 185);
+		var decimalOfPixelsShown = amountOfPixelsShown / ($footer.outerHeight() - 285);
 
 		// Needs to be from 600% when off screen to 100% when at bottom
 		var yPos = ((1 - decimalOfPixelsShown) * 500) + 100;

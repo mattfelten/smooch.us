@@ -58,8 +58,7 @@ a {
 
 .site-footer {
 	background: url(../images/bros.png) no-repeat 50% 600%;
-	margin-top: $padding;
-	padding-top: 185px;
+	padding-top: 185px + $padding;
 	padding-bottom: 55px;
 
 	p {
