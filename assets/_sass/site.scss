@@ -1,0 +1,71 @@
+$grey: #82817E;
+$red: #E15A46;
+$padding: 100px;
+
+body {
+	background: #F9F6EF;
+	color: $grey;
+	font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0;
+	text-align: center;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
+}
+
+.site-header {
+	margin-bottom: $padding;
+	overflow: auto;
+
+	img {
+		float: left;
+		margin: 18px 0 0 24px;
+	}
+
+	p {
+		float: right;
+		margin: 45px 45px 0 0;
+		text-align: right;
+		width: 120px;
+	}
+}
+
+.page-content {
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 0 25px;
+}
+
+.product {
+	color: $grey;
+	display: block;
+	text-decoration: none;
+
+	&:hover {
+		color: $red;
+	}
+
+	img {
+		display: block;
+		margin-bottom: 36px;
+		max-width: 100%;
+	}
+}
+
+.site-footer {
+	background: url(../images/bros.png) no-repeat 50% 600%;
+	margin-top: $padding;
+	padding-top: 185px;
+	padding-bottom: 55px;
+
+	p {
+		background: #fff;
+		display: inline-block;
+		font-size: 11px;
+		padding: .6em;
+	}
+}

@@ -1,0 +1,8 @@
+# Site settings
+url: "http://smooch.us" # the base hostname & protocol for your site
+
+# Build settings
+exclude: ['README.md', 'CNAME']
+markdown: kramdown
+sass:
+    sass_dir: assets/_sass
